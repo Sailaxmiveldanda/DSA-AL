@@ -11,5 +11,6 @@ class Solution {
             map.get(key).add(str);
         }
         return new ArrayList<>(map.values());
+        //time - O(n * k ) space - O(n * k log k)
     }
 }
