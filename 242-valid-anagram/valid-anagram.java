@@ -13,5 +13,6 @@ class Solution {
             map2.put(ch, map2.getOrDefault(ch,0) +1);
         }
         return map1.equals(map2);
+        //time - O(n) space - O(k)
     }
 }
